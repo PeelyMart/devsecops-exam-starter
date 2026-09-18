@@ -26,7 +26,15 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm test
+        run: npm test  
+
+      - name: Dependency Vulnerability Scan
+        run: npm audit --audit-level=high 
+      
+      - name: Secret Scan 
+        uses: trufflesecurity/trufflehog@main
+
 
       - name: Build Docker image
-        run: docker build -t devsec-api .
+        run: docker build -t devsec-api . 
+
