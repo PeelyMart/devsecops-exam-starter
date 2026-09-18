@@ -94,7 +94,7 @@ TruffleHog successfully detected the secret during scanning and flagged it as a 
 
 ### Screenshot: TruffleHog Detection
 
-![trufflehog detection](screnshots/trufflehog-detection.jpg)
+![trufflehog detection](screnshots/npm-audit.jpg)
 
 ---
 
