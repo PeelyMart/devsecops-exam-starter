@@ -81,7 +81,7 @@ npm audit --audit-level=high
 the vulnerability was detected and the security stage of the pipeline failed.
 
 ### Screenshot: Dependency Scan Failure
-![npm-audit](screnshots/trufflehog-detection.jpg)
+![npm-audit](screnshots/npm-audit.jpg)
 
 
 ---
@@ -94,7 +94,7 @@ TruffleHog successfully detected the secret during scanning and flagged it as a 
 
 ### Screenshot: TruffleHog Detection
 
-![trufflehog-detection](screnshots/npm-audit.jpg)
+![trufflehog-detection](screnshots/trufflehog-detection.png)
 
 ---
 
