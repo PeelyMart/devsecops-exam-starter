@@ -82,7 +82,7 @@ the vulnerability was detected and the security stage of the pipeline failed.
 
 ### Screenshot: Dependency Scan Failure
 
-  ![trufflehog detection](screnshots/trufflehog-detection.jpg)
+  ![npm-audit](screnshots/trufflehog-detection.jpg)
 ---
 
 ## Secret Detection Demonstration
